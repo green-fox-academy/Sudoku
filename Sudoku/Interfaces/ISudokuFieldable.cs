@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sudoku
+namespace SudokuModel
 {
     /// <summary>
     /// Methods for the cells and groups of cells in the sudoku.

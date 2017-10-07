@@ -51,6 +51,7 @@
     <Compile Include="Classes\Grid9x9.cs" />
     <Compile Include="Classes\Line.cs" />
     <Compile Include="Classes\Row.cs" />
+    <Compile Include="Interfaces\IPositionable.cs" />
     <Compile Include="Interfaces\ISudokuCellable.cs" />
     <Compile Include="Interfaces\ISudokuFieldable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
