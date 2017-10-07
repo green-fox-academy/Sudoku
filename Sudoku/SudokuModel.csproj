@@ -40,8 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISudokuCellable.cs" />
-    <Compile Include="ISudokuFieldable.cs" />
+    <Compile Include="Classes\Cell.cs" />
+    <Compile Include="Classes\Grid3x3.cs" />
+    <Compile Include="Classes\Grid9x9.cs" />
+    <Compile Include="Classes\Line.cs" />
+    <Compile Include="Classes\Row.cs" />
+    <Compile Include="Interfaces\ISudokuCellable.cs" />
+    <Compile Include="Interfaces\ISudokuFieldable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
