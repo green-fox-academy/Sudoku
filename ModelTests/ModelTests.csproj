@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sudoku\SudokuModel.csproj">
+    <ProjectReference Include="..\Sudoku\Model.csproj">
       <Project>{2283d1b8-6355-499b-b47d-bf2e35244745}</Project>
-      <Name>SudokuModel</Name>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
