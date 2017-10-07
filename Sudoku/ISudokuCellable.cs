@@ -12,8 +12,10 @@ namespace Sudoku
     interface ISudokuCellable
     {
         /// <summary>
-        /// Represents the number that can be found in the cell.
+        /// Represents the number that can be found in the cell. It must be between 1...9 (a one digit non-zero positive integer, below ten).
         /// </summary>
         int Value { get; set; }
+
+        ArgumentException IllegalValueInCellException;
     }
 }
