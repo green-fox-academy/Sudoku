@@ -9,7 +9,7 @@ namespace Sudoku
     /// <summary>
     /// Methods for the cells and groups of cells in the sudoku.
     /// </summary>
-    interface ISudokuFieldable : ICollection
+    interface ISudokuFieldable : ICollection<object>
     {
         /// <summary>
         /// Returns true if cell(s) contain(s) the given number.
