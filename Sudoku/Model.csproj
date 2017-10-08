@@ -49,7 +49,7 @@
     <Compile Include="Classes\Cell.cs" />
     <Compile Include="Classes\Grid3x3.cs" />
     <Compile Include="Classes\Grid9x9.cs" />
-    <Compile Include="Classes\Line.cs" />
+    <Compile Include="Classes\Column.cs" />
     <Compile Include="Classes\Row.cs" />
     <Compile Include="Interfaces\IPositionable.cs" />
     <Compile Include="Interfaces\ISudokuCellable.cs" />
