@@ -30,5 +30,10 @@ namespace SudokuModel
         /// <param name="number"></param>
         /// <returns></returns>
         bool NumberIsPlaceable(int number);
+
+        /// <summary>
+        /// Returns true if the field is completed.
+        /// </summary>
+        bool IsCompleted { get; }
     }
 }
