@@ -9,7 +9,7 @@ namespace SudokuModel
     /// <summary>
     /// Methods for the cells and groups of cells in the sudoku.
     /// </summary>
-    interface ISudokuFieldable : ICollection<ISudokuCellable>
+    interface ISudokuFieldable : IList<ISudokuCellable>
     {
         /// <summary>
         /// Returns true if cell(s) contain(s) the given number.
